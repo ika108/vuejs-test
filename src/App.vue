@@ -10,6 +10,7 @@
         <div class='col'><SuppliersMap/></div>
       </div>
     </div>
+    <router-view></router-view>
   </div>
 </template>
 
@@ -21,7 +22,7 @@ export default {
   name: 'App',
   components: {
     SuppliersList,
-    SuppliersMap
+    SuppliersMap,
   }
 }
 </script>

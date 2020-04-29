@@ -1,15 +1,15 @@
 <template>
-    <div class="suppliersmap">
-        <h3><router-link to="/map">Carte des fournisseurs</router-link></h3>
+    <div class="map">
+        <img src="https://cdn.cnn.com/cnnnext/dam/assets/200217140048-02-puppy-pigeon-friendship-rescue-large-169.jpg">
     </div>
 </template>
 
 <script>
 export default {
-  name: 'SuppliersMap',
+  name: 'Map',
   methods: {
-    onMapClick () {
-      alert('On a cliqué sur la map ')
+    onSuppliersListClick () {
+      alert('On a cliqué sur la Map')
     }
   },
   props: {

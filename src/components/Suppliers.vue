@@ -1,15 +1,15 @@
 <template>
-    <div class="suppliersmap">
-        <h3><router-link to="/map">Carte des fournisseurs</router-link></h3>
+    <div class="suppliers">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRk1QeDY6FM1tKv6T3WD68XkdZ9NAkYdSRQ8SHS4dssWyhY2VV-&usqp=CAU">
     </div>
 </template>
 
 <script>
 export default {
-  name: 'SuppliersMap',
+  name: 'Suppliers',
   methods: {
-    onMapClick () {
-      alert('On a cliqué sur la map ')
+    onSuppliersListClick () {
+      alert('On a cliqué sur la List des suppliers')
     }
   },
   props: {

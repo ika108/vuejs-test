@@ -1,6 +1,6 @@
 <template>
     <div class="supplierslist">
-        <h3 v-on:click="onSuppliersListClick">Liste des fournisseurs</h3>
+        <h3><router-link to="/suppliers">Liste des fournisseurs</router-link></h3>
     </div>
 </template>
 
@@ -33,6 +33,6 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  color: #2445ca;
 }
 </style>
