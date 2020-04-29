@@ -1,34 +1,29 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Que voulez-vous faire?"/>
-    <HelloWorld step1="<p>blabla<p>"/>
+    <div class='container-fluid'>
+      <div class='row'>
+        <div class='col'><h1>Que voulez vous faire ?</h1></div>
+      </div>
+      <div class ='row'>
+        <div class='col'><SuppliersList/></div>
+        <div class='col'><SuppliersMap/></div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import SuppliersList from './components/SuppliersList.vue'
+import SuppliersMap from './components/SuppliersMap.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-    
-  },
-  
-  methods:{
-onSuppliersListClick () {
-  alert('clic ici');
- },
-onMapClick () {
-   alert('clic ici aussi');
-}
-
+    SuppliersList,
+    SuppliersMap
   }
 }
-
-
-
 </script>
 
 <style>
@@ -40,6 +35,7 @@ onMapClick () {
   color: #2c3e50;
   margin-top: 60px;
 }
+.container-fluid {
+  margin: auto
+}
 </style>
-
-

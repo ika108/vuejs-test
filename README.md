@@ -58,7 +58,7 @@ Si des questions vous sont posées, choisissez les options par défaut.
 **Votre réponse :**
 On peu ouvrir package.json pour comprendre les dependances. On apprendra avec quelle version de vue le projet fonctionne et s'il a déjà des scripts à executer. (L'occasion aussi de se rendre compte peut-être si quelque chose manque?)
 
-On remarquera aussi trois sections dans App.vue: <template> , <script>, <style> qui permettent respectivement de mettre du code HTML (le template), le code JavaScript (les données, les méthodes, les événements…) et le code CSS
+On remarquera aussi trois sections dans App.vue: template , script, style qui permettent respectivement de mettre du code HTML (le template), le code JavaScript (les données, les méthodes, les événements…) et le code CSS
 
 On trouvera aussi le fichier index.html qui presente le point d’entrée de l’application. Il comporte uniquement le boilerplate html de base ainsi qu’une div avec l’id App qui servira de point de départ du code de l’application
 
@@ -66,8 +66,8 @@ On trouvera aussi le main.js, qui est le fichier “racine” de l’application
 
 Comment va s'articuler tout cela? :
 -on importe Vue
--on importe notre composant App. 
--On spécifie que le mode de production n’est pas active (si on est en dev) 
+-on importe notre composant App.
+-On spécifie que le mode de production n’est pas active (si on est en dev)
 -on créer un nouvel objet Vue qui prend en paramètre el qui est l’élément HTML qui a pour valeur notre point d’entrée de l’application (la balise Div avec l’id app), en deuxième argument la liste des composants enfants (ici App) et le template qui sera afficher dans la balise div#app
 
 **Question :** Regardez le fichier `README.md`, quelle est la commande que nous allons utiliser pour travailler le projet ?
@@ -76,7 +76,7 @@ Comment va s'articuler tout cela? :
 
 - Lancez le projet.
 => Se placer à l'interieur du projet avec cd projet_vue
-Et pour lancer le projet on va simplement effectuer un npm run start
+Et pour lancer le projet on va simplement effectuer un npm run serve
 
 
 ### 2) Écran d'accueil.
